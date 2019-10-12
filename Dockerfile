@@ -38,7 +38,7 @@ sockets \
 pdo \
 pdo_mysql \
 xmlrpc \
-&& docker-php-ext-enable \
+
 
 
 # Clean repository
