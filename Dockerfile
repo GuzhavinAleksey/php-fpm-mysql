@@ -37,7 +37,7 @@ iconv \
 sockets \
 pdo \
 pdo_mysql \
-xmlrpc \
+xmlrpc
 
 
 
