@@ -37,6 +37,16 @@ iconv \
 sockets \
 pdo \
 pdo_mysql \
+cli \ 
+php-gettext \ 
+php-mbstring \ 
+mysqlnd \ 
+pear \ 
+curl \ 
+gd \  
+xml \ 
+bcmath \ 
+zip \
 xmlrpc
 
 
