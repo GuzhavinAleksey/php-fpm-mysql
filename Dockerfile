@@ -37,17 +37,15 @@ iconv \
 sockets \
 pdo \
 pdo_mysql \
-php-gettext \
+gettext \
 mbstring \
-mysqlnd \
-pear \
+mysqli \
 curl \
 gd \
 xml \
 bcmath \
 zip \
 xmlrpc
-
 
 
 # Clean repository
