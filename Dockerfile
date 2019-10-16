@@ -40,7 +40,6 @@ pdo_mysql \
 gettext \
 mbstring \
 mysqli \
-curl \
 gd \
 xml \
 bcmath \
