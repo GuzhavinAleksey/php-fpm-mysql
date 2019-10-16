@@ -43,7 +43,6 @@ mysqli \
 gd \
 xml \
 bcmath \
-zip \
 xmlrpc
 
 
