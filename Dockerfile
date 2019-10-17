@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y \
     software-properties-common \
     apt-transport-https \
     libxml2-dev \
-    unixodbc-dev
+    unixodbc-dev \
+    libzip-dev
 
 # Install PHP extensions deps
 RUN apt-get update \
