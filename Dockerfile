@@ -42,6 +42,7 @@ mbstring \
 mysqli \
 gd \
 xml \
+zip \
 bcmath \
 xmlrpc
 
