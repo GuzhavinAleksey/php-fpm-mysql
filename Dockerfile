@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     apt-utils \
     gnupg \
+    cron \
     software-properties-common \
     apt-transport-https \
     libxml2-dev \
