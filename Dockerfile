@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     apt-utils \
     gnupg \
     cron \
+    libxslt \
     software-properties-common \
     apt-transport-https \
     libxml2-dev \
