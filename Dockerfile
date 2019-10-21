@@ -43,6 +43,8 @@ pdo_mysql \
 gettext \
 mbstring \
 mysqli \
+imagick \
+exif \
 gd \
 xml \
 zip \
