@@ -18,6 +18,7 @@ RUN apt-get update \
 libfreetype6-dev \
 libjpeg62-turbo-dev \
 libmcrypt-dev \
+libjpeg-dev \
 libpng-dev \
 zlib1g-dev \
 libicu-dev \
