@@ -102,6 +102,9 @@ RUN { \
 		echo 'ignore_repeated_source = Off'; \
 		echo 'html_errors = Off'; \
 	} > /usr/local/etc/php/conf.d/error-logging.ini
+	
+COPY crontab /etc/cron.d/crontab
+RUN crontab /etc/cron.d/crontab
 
 CMD ["cron", "-f"]
 
