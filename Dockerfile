@@ -103,6 +103,8 @@ RUN { \
 		echo 'html_errors = Off'; \
 	} > /usr/local/etc/php/conf.d/error-logging.ini
 
+CMD ["cron", "-f"]
+
 # Clean repository
 RUN apt-get autoremove -y && \
 apt-get clean && \
