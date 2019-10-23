@@ -10,9 +10,6 @@ RUN apt-get update && apt-get install -y \
     software-properties-common \
     apt-transport-https \
     libxml2-dev \
-    libjpeg-dev \
-    libfreetype6-dev \
-    libpng-dev \
     unixodbc-dev \
     libzip-dev
 
@@ -30,6 +27,8 @@ unixodbc-dev \
 libaio-dev \
 libmemcached-dev \
 freetds-dev \
+libfreetype6-dev \
+libpng-dev \
 libssl-dev \
 openssl \
 supervisor
@@ -48,6 +47,7 @@ mysqli \
 xsl \
 exif \
 gd \
+&& docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
 xml \
 zip \
 bcmath \
