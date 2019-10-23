@@ -46,11 +46,14 @@ mysqli \
 xsl \
 exif \
 gd \
-&& docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
 xml \
 zip \
 bcmath \
-xmlrpc
+xmlrpc 
+
+RUN docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ 
+
+
 
 COPY crontab /etc/cron.d/crontab
 RUN chmod 0644 /etc/cron.d/crontab
