@@ -18,6 +18,7 @@ RUN apt-get update \
 && apt-get install --no-install-recommends -y \
 libfreetype6-dev \
 libjpeg62-turbo-dev \
+libpng-dev \
 libmcrypt-dev \
 zlib1g-dev \
 libicu-dev \
@@ -27,8 +28,6 @@ unixodbc-dev \
 libaio-dev \
 libmemcached-dev \
 freetds-dev \
-libfreetype6-dev \
-libpng-dev \
 libssl-dev \
 openssl \
 supervisor
