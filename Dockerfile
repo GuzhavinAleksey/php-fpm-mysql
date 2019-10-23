@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y \
     software-properties-common \
     apt-transport-https \
     libxml2-dev \
+    libjpeg-dev \
+    libfreetype6-dev \
+    libpng-dev \
     unixodbc-dev \
     libzip-dev
 
@@ -19,9 +22,6 @@ RUN apt-get update \
 libfreetype6-dev \
 libjpeg62-turbo-dev \
 libmcrypt-dev \
-libjpeg-dev \
-libfreetype6-dev \
-libpng-dev \
 zlib1g-dev \
 libicu-dev \
 g++ \
@@ -54,6 +54,7 @@ bcmath \
 xmlrpc
 
 COPY crontab /etc/cron.d/crontab
+RUN chmod 0644 /etc/cron.d/crontab
 RUN crontab /etc/cron.d/crontab
 
 # Clean repository
