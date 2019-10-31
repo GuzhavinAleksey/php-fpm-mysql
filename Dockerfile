@@ -61,6 +61,9 @@ RUN set -ex; \
         zip \
         bcmath \
         xmlrpc \
+	intl \
+        soap \
+        opcache \
 	; \
 	pecl install imagick-3.4.4; \
 	docker-php-ext-enable imagick; \
