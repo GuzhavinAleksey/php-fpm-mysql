@@ -3,6 +3,7 @@ FROM php:7.3-fpm
 # Get repository and install wget and vim
 RUN apt-get update && apt-get install -y \
     wget \
+    npm \
     apt-utils \
     gnupg \
     cron \
